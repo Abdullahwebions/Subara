@@ -79,7 +79,8 @@ function LoadProducts(Conatiner)
     });
 }
 
-const Conatiner = document.querySelector('.ProductsSection');
+const Conatiner = document.querySelector(".ProductsSection");
+console.log(Conatiner);
 if(Conatiner)
     LoadProducts(Conatiner);
 
@@ -173,3 +174,4 @@ ${visitTime}
 }
 
 LoadProducts();
+
