@@ -90,7 +90,7 @@ function GetIdFromUrl() {
 
 async function LoadProductDetails(id)
 {
-    const res = await fetch('products.json');
+    const res = await fetch('../Products/Products.json');
     const data = await res.json();
 
     for (const sec of data.sections) {
@@ -171,3 +171,4 @@ ${visitTime}
     const phone = "967730020957";
     window.open(`https://wa.me/${phone}?text=${encodedMessage}`, '_blank');
 }
+
