@@ -11,11 +11,9 @@ HideSideBar.addEventListener('click', () => {
     document.body.classList.remove('DisableScroll');
 });
 
-function LoadProducts()
+function LoadProducts(Conatiner)
 {
     fetch('../Products/Products.json').then(res => res.json()).then(data =>{
-        const Conatiner = document.querySelector('.ProsuctsSection');
-
         data.sections.forEach(section => {
             Conatiner.insertAdjacentHTML('beforeend', `<h2 class="TitleText SectionHeader">${section.name}</h2>`);
 
@@ -81,7 +79,9 @@ function LoadProducts()
     });
 }
 
-LoadProducts();
+const Conatiner = document.querySelector('.ProductsSection');
+if(Conatiner)
+    LoadProducts(Conatiner);
 
 function GetIdFromUrl() {
     const params = new URLSearchParams(window.location.search);
@@ -171,3 +171,5 @@ ${visitTime}
     const phone = "967730020957";
     window.open(`https://wa.me/${phone}?text=${encodedMessage}`, '_blank');
 }
+
+LoadProducts();
