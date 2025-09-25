@@ -44,66 +44,6 @@
             </div>
             <p class="CopyRights">كل الحقوق محفوظة - 2025 SUPARA</p>
     </footer>
-
-        function getIdFromUrl() {
-        const params = new URLSearchParams(window.location.search);
-        return params.get("id");
-        }
-
-        fetch('products.json')
-        .then(res => res.json())
-        .then(data => {
-            const id = getIdFromUrl();
-            let product = null;
-
-            for (const sec of data.sections) {
-                const found = sec.products.find(p => p.id == Number(id));
-                if (found) {
-                    product = found;
-                    break;
-                }
-            }
-
-            const area = document.querySelector(".ProductContainer");
-            if (!product) {
-                area.innerHTML = "<p>المنتج غير موجود</p>";
-                return;
-            }
-
-            let PlaneOptions = "";
-            if (product.plane && product.plane.length > 0) {
-                PlaneOptions = product.plane
-                    .map(p => `<option plane="${p.price}">${p.planeMethod}</option>`)
-                    .join('');
-            } 
-
-            area.innerHTML = `
-            <div class="ProductImgContainer">
-                <img src="${product.image}" alt="" id="product-main-image">
-            </div>
-            <div class="SingleProduct">
-                    <div class="ProductBaseInfo">
-                        <h2 class="SingleProductName">${product.name}</h2>
-                        <p class="SingleProductPrice">${product.price} ريال يمني</p>
-                    </div>
-
-                    <div class="SingleProductDetails">
-                        <h3 class="SingleProductDescriptionTitle">الوصف</h3>
-                        <p class="SingleProductDescription">${product.description}</p>
-                    </div>
-                    <div class="PriceSelectorConteiner">
-                        <h3 class="PriceSelectorTitle">قم بأختيار أحد الأختيارات</h3>
-                        <select name="SelectedValue" class="PriceSelector">
-                                ${PlaneOptions}
-                        </select>
-                    </div>
-                    <div class="ProductBtnGroup">
-                        <div class="Btn PrimaryBtn SingleProductAddToCart">أضافة لسلة المشتريات</div>
-                    </div>
-            </div>
-            `;
-        });
-    </script> -->
     <script src="../../Js/App.js"></script>
 </body>
 </html>
