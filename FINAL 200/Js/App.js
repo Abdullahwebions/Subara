@@ -80,7 +80,6 @@ function LoadProducts(Conatiner)
 }
 
 const Conatiner = document.querySelector(".ProductsSection");
-console.log(Conatiner);
 if(Conatiner)
     LoadProducts(Conatiner);
 
@@ -172,3 +171,4 @@ ${visitTime}
     const phone = "967730020957";
     window.open(`https://wa.me/${phone}?text=${encodedMessage}`, '_blank');
 };
+
