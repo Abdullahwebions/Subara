@@ -1,0 +1,222 @@
+{
+    "sections":[
+        {
+            "id": 1,
+            "name": "بطائق إلكترونية",
+            "products":[
+                {
+                    "id": 101,
+                    "name": "بطائق أمازون",
+                    "shortDescription": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "description": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "price": "1000",
+                    "image": "../../Icons/Amazon.png",
+                    "plane":[
+                        {
+                            "id": "101-1",
+                            "planeMethod": "10$",
+                            "price": "15,000"
+                        },
+                        {
+                            "id": "101-2",
+                            "planeMethod": "20$",
+                            "price": "20,000"
+                        }
+                    ] 
+                },
+                {
+                    "id": 102,
+                    "name": "بطائق نتفليكس",
+                    "shortDescription": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "description": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "price": "2000",
+                    "image": "../../Icons/Netflix.png",
+                    "plane":[
+                        {
+                            "id": "102-1",
+                            "planeMethod": "10$",
+                            "price": "15,000"
+                        },
+                        {
+                            "id": "102-2",
+                            "planeMethod": "15$",
+                            "price": "18,000"
+                        }
+                    ]
+                },
+                {
+                    "id": 103,
+                    "name": "بطائق جوجل",
+                    "shortDescription": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "description": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "price": "1000",
+                    "image": "../../Icons/GooglePlay.png",
+                    "plane":[
+                        {
+                            "id": "103-1",
+                            "planeMethod": "10$",
+                            "price": "15,000"
+                        },
+                        {
+                            "id": "103-2",
+                            "planeMethod": "20$",
+                            "price": "20,000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "الأشتراكات",
+            "products":[
+                {
+                    "id": 201,
+                    "name": "أشتراك شاهد",
+                    "shortDescription": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "description": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "price": "5000",
+                    "image": "../../Icons/Shahid.png",
+                    "plane":[
+                        {
+                            "id": "201-1",
+                            "planeMethod": "شهر",
+                            "price": "500"
+                        },
+                        {
+                            "id": "201-2",
+                            "planeMethod": "3 أشهر",
+                            "price": "1500"
+                        }
+                    ] 
+                },
+                {
+                    "id": 202,
+                    "name": "Watch It",
+                    "shortDescription": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "description": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "price": "9000",
+                    "image": "../../Icons/WatchIt.png",
+                    "plane":[
+                        {
+                            "id": "202-1",
+                            "planeMethod": "شهر",
+                            "price": "500"
+                        },
+                        {
+                            "id": "202-2",
+                            "planeMethod": "3 أشهر",
+                            "price": "1500"
+                        },
+                        {
+                            "id": "202-3",
+                            "planeMethod": "سنة",
+                            "price": "2500"
+                        }
+                    ]
+                },
+                {
+                    "id": 203,
+                    "name": "سبيستون غو",
+                    "shortDescription": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "description": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "price": "2500",
+                    "image": "../../Icons/GooglePlay.png",
+                    "plane":[
+                        {
+                            "id": "203-1",
+                            "planeMethod": "شهر",
+                            "price": "500"
+                        },
+                        {
+                            "id": "203-2",
+                            "planeMethod": "3 أشهر",
+                            "price": "1500"
+                        },
+                        {
+                            "id": "203-3",
+                            "planeMethod": "سنة",
+                            "price": "2500"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "شحن ألعاب",
+            "products":[
+                {
+                    "id": 301,
+                    "name": "شدات ببجي",
+                    "shortDescription": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "description": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "price": "10,000",
+                    "image": "../../Icons/Shahid.png",
+                    "plane":[
+                        {
+                            "id": "301-1",
+                            "planeMethod": "1000",
+                            "price": "500"
+                        },
+                        {
+                            "id": "301-2",
+                            "planeMethod": "2000",
+                            "price": "1000"
+                        }
+                    ] 
+                },
+                {
+                    "id": 302,
+                    "name": "فري فاير",
+                    "shortDescription": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "description": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "price": "4000",
+                    "image": "../../Icons/WatchIt.png",
+                    "plane":[
+                        {
+                            "id": "302-1",
+                            "planeMethod": "1000",
+                            "price": "500"
+                        },
+                        {
+                            "id": "302-2",
+                            "planeMethod": "2000",
+                            "price": "1000"
+                        },
+                        {
+                            "id": "302-3",
+                            "planeMethod": "5000",
+                            "price": "4000"
+                        }
+                    ]
+                },
+                {
+                    "id": 303,
+                    "name": "كلاش رويال",
+                    "shortDescription": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "description": "اشتراك شهري وحصري جدا واشتراك حصري محصر",
+                    "price": "7000",
+                    "image": "../../Icons/GooglePlay.png",
+                    "plane":[
+                        {
+                            "id": "303-1",
+                            "planeMethod": "4000",
+                            "price": "500"
+                        },
+                        {
+                            "id": "303-2",
+                            "planeMethod": "9000",
+                            "price": "1000"
+                        },
+                        {
+                            "id": "303-3",
+                            "planeMethod": "50000",
+                            "price": "1,500"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
