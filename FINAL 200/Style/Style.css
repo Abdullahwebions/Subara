@@ -413,7 +413,7 @@ a:hover {
     margin-right: 15px;
 }
 
-.ProsuctsSection{
+.ProductsSection{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -752,4 +752,5 @@ a:hover {
         max-width: 100%;
         height: auto;
     }
+
 }
