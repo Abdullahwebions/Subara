@@ -1,4 +1,3 @@
-
 const ShowSideBar = document.querySelector('.OpenSideBar');
 const HideSideBar = document.querySelector('.CloseSideBar');
 
@@ -82,10 +81,11 @@ function LoadProducts()
     });
 }
 
+LoadProducts();
+
 function GetIdFromUrl() {
     const params = new URLSearchParams(window.location.search);
-    const id = params.get("id");
-    return id ? id : null;
+    return params.get("id");
 }
 
 async function LoadProductDetails(id)
@@ -94,7 +94,7 @@ async function LoadProductDetails(id)
     const data = await res.json();
 
     for (const sec of data.sections) {
-        const product = sec.products.find(p => p.id == id); // id string = تمام
+        const product = sec.products.find(p => p.id === Number(id));
         if (product) {
             return product;
         }
@@ -171,7 +171,3 @@ ${visitTime}
     const phone = "967730020957";
     window.open(`https://wa.me/${phone}?text=${encodedMessage}`, '_blank');
 }
-
-
-
-LoadProducts();
