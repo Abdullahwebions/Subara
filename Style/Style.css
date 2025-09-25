@@ -18,11 +18,22 @@
     box-sizing: border-box;
     font-family: "Changa", sans-serif;
     font-weight: 700;
-    background: var(--background);
     scrollbar-width: thin;
     scrollbar-color: var(--secondry-dark) var(--background);
     scroll-behavior: smooth;
     position: relative;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 body {
@@ -30,6 +41,9 @@ body {
     flex-direction: column;
     min-height: 100vh;
     position: relative;
+    background: linear-gradient(46deg,#ede0d0,#eccea9);
+    background-size: 120% 120%;
+    animation: gradient-animation 6s ease infinite;
 }
 
 body.DisableScroll {
@@ -202,25 +216,6 @@ a:hover {
     gap: 20px;
 }
 
-.LandingNavBar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    margin: 30px 5rem;
-    border: 0.2px solid var(--secondry-dark);
-    border-radius: 15px;
-}
-
-.LandingNavBar .logo {
-    margin-right: 15px;
-    color: var(--primary-text);
-}
-
-.LandingNavBar .links button {
-    margin-left: 10px;
-}
-
 .LandingMain {
     display: flex;
     align-items: center;
@@ -262,7 +257,7 @@ a:hover {
     justify-content: space-between;
     gap: 10px;
     border-radius: 5px 0 0 5px;
-    background-color: var(--background-low);
+    background-color: inherit;
 }
 
 .NavBar .NavbarLogo{
