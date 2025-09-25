@@ -171,7 +171,4 @@ ${visitTime}
     const encodedMessage = encodeURIComponent(message);
     const phone = "967730020957";
     window.open(`https://wa.me/${phone}?text=${encodedMessage}`, '_blank');
-}
-
-LoadProducts();
-
+};
