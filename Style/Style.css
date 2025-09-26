@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Changa';
+    src: url('../Fonts/Ar/Changa-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../Fonts/Eng/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --background: #ede0d0;
     --background-low: #eccea9;
@@ -750,3 +764,4 @@ a:hover {
         height: auto;
     }
 }
+
