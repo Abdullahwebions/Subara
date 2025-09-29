@@ -806,7 +806,7 @@ a:hover {
 
     .Product{
         width: 220px !important;
-        height: 450px !important;
+        /* height: 450px !important; */
     }
 
     .ProductImgContainer img{
@@ -846,6 +846,7 @@ a:hover {
         height: auto;
     }
 }
+
 
 
 
