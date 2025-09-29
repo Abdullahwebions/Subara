@@ -502,8 +502,8 @@ a:hover {
 
 .Product{
     border: 1px solid var(--highest-dark);
-    width: 250px;
-    height: 450px;
+    width: 250px !important;
+    height: 480px !important;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -511,6 +511,7 @@ a:hover {
     position: relative;
     cursor: pointer;
     box-shadow: 5px 5px 0 var(--primary-text);
+    margin-bootom: 3.5rem;
     transition: all 0.3s ease;
 }
 
@@ -654,6 +655,7 @@ a:hover {
     font-size: 18px;
     padding-right: 5px;
     background-color: inherit;
+    line-height: 2.2;
 }
 
 .PriceSelectorConteiner{
@@ -802,6 +804,11 @@ a:hover {
         font-size: 25px;
     }
 
+    .Product{
+        width: 220px !important;
+        height: 450px !important;
+    }
+
     .ProductImgContainer img{
         width: 20rem;
         height: 20rem;
@@ -839,5 +846,6 @@ a:hover {
         height: auto;
     }
 }
+
 
 
