@@ -58,12 +58,10 @@ function LoadProducts(Conatiner)
             Conatiner.appendChild(SectionContainer);
 
             new Swiper('.SwiperContainer', {
-                // loop: true,
-
                 breakpoints: {
                     0:{
-                    slidesPerView:2,
-                    spaceBetween: 10
+                    slidesPerView: "auto",
+                    spaceBetween: 15
                     },
                     768:{
                     slidesPerView:3,
@@ -171,4 +169,5 @@ ${visitTime}
     const phone = "967730020957";
     window.open(`https://wa.me/${phone}?text=${encodedMessage}`, '_blank');
 }
+
 
